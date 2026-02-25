@@ -1,21 +1,9 @@
-package com.louder;
-import java.util.Scanner;
-/** 
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {  
-        Scanner sc = new Scanner(System.in);
-       
-        System.out.println( "Enter 2 numbers" );
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        // int result = a+b;
+public class App {
+    public static void main(String[] args) {
 
-        
-        System.out.println("Result: " +(a+b));
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+
+        System.out.println("Sum = " + (a + b));
     }
 }

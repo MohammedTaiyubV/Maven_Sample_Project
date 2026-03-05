@@ -1,9 +1,14 @@
 package com.louder;
 
-public class App {
+class Fact {
     public static void main(String[] args) {
-        int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
-        System.out.println("Sum = " + (a + b));
+
+        int n = 6, fact = 1, temp = n;
+
+        while (n > 1) {
+            fact *= n--;
+        }
+
+        System.out.println(temp + " Factorial is : " + fact);
     }
 }

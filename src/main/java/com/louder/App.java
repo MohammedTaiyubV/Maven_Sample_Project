@@ -9,6 +9,6 @@ class Fact {
             fact *= n--;
         }
 
-        System.out.println(temp + " Factorial is : " + fact);
+        System.out.println(temp + " Factorial is  : " + fact);
     }
 }
